@@ -27,9 +27,10 @@
 
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Products from './Products';
-import Users from './Users';
-import Verification from './Verification';
+import Products from './Products'; //Question:2
+import Users from './Users'; //Question:2
+import Verification from './Verification'; //Question:2
+import VerificationCode from './VerificationCode'; //Question:3
 
 const App = () => {
   return (
@@ -39,6 +40,7 @@ const App = () => {
         <Route path="/products" element={<Products />} />
         <Route path="/Users" element={<Users />} />
         <Route path="/Verification" element={<Verification />} />
+        <Route path="/VerificationCode" element={<VerificationCode />} />
       </Routes>
     </Router>
   );
@@ -46,7 +48,8 @@ const App = () => {
 
 // Example Home component
 const Home = () => {
-  return <h1>Welcome to the home page</h1>;
+  return <div><h1>Welcome to the home page</h1></div>;
+ 
 }
 
 export default App;

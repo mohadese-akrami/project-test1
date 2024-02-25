@@ -1,0 +1,40 @@
+.verification-container {
+    margin: 20px;
+  }
+  
+  .verification-inputs {
+    display: flex;
+  }
+  
+  input[type='number'] {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .verification-buttons {
+    margin-top: 20px;
+  }
+  
+  .clear-button,
+  .verify-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .clear-button {
+    background-color: #f44336;
+    color: white;
+    margin-right: 10px;
+  }
+  
+  .verify-button {
+    background-color: #4caf50;
+    color: white;
+  }
+  
